@@ -1,0 +1,31 @@
+:root {
+  --logo-color: #28a745;
+  --background-color: #ffffff;
+  --text-color: #e9e9e9;
+  --color-text-body: #333333;
+}
+.header {
+}
+.logo-finance {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.21;
+  color: var(--logo-color);
+}
+.logo-ledger {
+  color: var(--background-color);
+}
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #ffffff;
+}
