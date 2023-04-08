@@ -4,10 +4,51 @@
   --text-color: #e9e9e9;
   --color-text-body: #333333;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}
+
 .header {
+  background-color: #e9e9e9;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .logo-finance {
-  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
@@ -18,6 +59,8 @@
   color: var(--background-color);
 }
 .nav-list {
+  display: flex;
+  gap: 40px;
 }
 .nav-item {
 }
